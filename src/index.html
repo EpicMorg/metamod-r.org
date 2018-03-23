@@ -1,1 +1,153 @@
-﻿
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Metamod-r - (un)Official site</title>
+  <link rel="stylesheet" href="/assets/css/fa-svg-with-js.css" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.6.2 -->
+  <link rel="stylesheet" href="/assets/css/bulma.css" crossorigin="anonymous" />
+  <link rel="stylesheet" type="text/css" href="/assets/css/hero.css">
+</head>
+<body>
+
+	<div id="hellopreloader">
+		<div id="hellopreloader_preload"></div>
+	</div>
+
+  <section class="hero is-info is-medium is-bold">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+          	<a class="navbar-item" href="/">
+      			<img src="/assets/img/valve.svg" alt="Metamod-r" width="32" height="32">
+    		</a>
+ 
+            <span class="navbar-burger burger" data-target="navbarMenu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenu" class="navbar-menu">
+            <div class="navbar-end">
+              <a class="navbar-item is-active">
+                <span class="icon">
+                	<i class="fas fa-home"></i>
+                </span> Home
+              </a>
+              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/releases" target="_blank">
+                <span class="icon">
+                	<i class="fas fa-download"></i>
+                </span> Releases
+              </a>
+              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/wiki" target="_blank">
+                <span class="icon">
+                	<i class="fas fa-book"></i>
+                </span> Documentation
+              </a>
+              <span class="navbar-item">
+                <a class="button is-white is-outlined is-small" href="https://github.com/theAsmodai/metamod-r" target="_blank">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>View Source</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          <img src="/assets/img/valve.svg" alt="Metamod-r" width="32" height="32"> <strong>Metamod-r</strong>
+        </h1>
+        <span class="subtitle">
+        	<p>&nbsp;<strong>Metamod-r</strong> is based on the original version of <span class="button is-white is-outlined is-small"><a href="http://metamod.org/"><i class="fas fa-link"></i> Metamod</a></span> written by <span class="button is-white is-outlined is-small"><a href="mailto:willday@metamod.org"><i class="fas fa-user"></i> Will Day</a></span> for Half-Life 1 with some improvements from <span class="button is-white is-outlined is-small"><a href="https://github.com/jkivilin"><i class="fas fa-user"></i> Jussi Kivilinna</a></span> (Developer of <span class="button is-white is-outlined is-small"><a href="https://github.com/jkivilin/metamod-p"><i class="fab fa-github"></i> Metamod-p</a></span>).</p>
+        	<p>&nbsp;</p>
+        	<p>&nbsp;This product contains a large number of performance optimizations and more pure code. The core was written using JIT compiler.</p>
+			<p>&nbsp;</p>
+			<p>&nbsp;Metamod-r is incompatible with original <span class="button is-white is-outlined is-small"><a href="https://developer.valvesoftware.com/wiki/Half-Life_Dedicated_Server"><i class="fas fa-link"></i> HLDS</a></span>. It's necessary to have installed <span class="button is-white is-outlined is-small"><a href="https://github.com/dreamstalker/ReHLDS"><i class="fab fa-github"></i> ReHLDS (API 3.1+)</a></span>. There is no guarantee that the product will work in a different environment.</p>
+			<p>&nbsp;</p>
+			<p>Distributed under
+				<a href="https://github.com/theAsmodai/metamod-r/blob/master/LICENSE">
+              		<img alt="GitHub license" src="https://img.shields.io/github/license/theAsmodai/metamod-r.svg??longCache=true&style=flat-square">
+              	</a>.
+            </p>
+      </div>
+    </div> 
+  </section>
+ 
+  <section class="container">
+    <div class="columns features">
+      <div class="column is-6">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i class="fas fa-medkit"></i>  <strong>Project's Health</strong>
+          </div>
+          <div class="card-content has-text-centered">
+            <div class="content">
+               <p>
+               		<img alt="Experimental" src="https://img.shields.io/badge/status-experimental-orange.svg?style=flat-square">
+               		<img alt="GitHub issues" src="https://img.shields.io/github/issues/theAsmodai/metamod-r.svg??longCache=true&style=flat-square">
+               		<img alt="GitHub forks" src="https://img.shields.io/github/forks/theAsmodai/metamod-r.svg??longCache=true&style=flat-square">
+               		<img alt="GitHub stars" src="https://img.shields.io/github/stars/theAsmodai/metamod-r.svg??longCache=true&style=flat-square"> 
+               </p> 
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-6">
+        <div class="card">
+          <div class="card-image has-text-centered">
+              <i class="fas fa-cloud-download-alt"></i> <strong>CI Download</strong>
+          </div>
+          <div class="card-content">
+            <div class="content has-text-centered"> 
+              <p>
+              	<a href="http://teamcity.rehlds.org/viewType.html?buildTypeId=Metamod_Publish&guest=1">
+              		<img alt="Build status" src="https://img.shields.io/teamcity/http/teamcity.rehlds.org/e/Metamod_Publish.svg?style=flat-square&label=TC%20Build">
+              	</a>
+              	<a href="http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful">
+              		<img alt="Quick download" src="https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667">
+              	</a>
+              	<a href="https://github.com/theAsmodai/metamod-r/blob/master/LICENSE">
+              		<img alt="GitHub license" src="https://img.shields.io/github/license/theAsmodai/metamod-r.svg??longCache=true&style=flat-square">
+              	</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+   
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="content has-text-centered">
+      	<p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank"><img src="https://img.shields.io/badge/License-CC%203.0%20BY-orange.svg?longCache=true&style=flat-square"></a></p>
+        <p>
+          <strong>Bulma Templates</strong> by <a href="https://github.com/dansup/bulma-templates">
+            <i class="fab fa-github"></i>
+            Daniel Supernault</a>. The source code 
+          <a href="https://github.com/dansup/bulma-templates/blob/master/LICENSE"><img src="https://img.shields.io/badge/Licelnse-MIT-brightgreen.svg?longCache=true&style=flat-square"></a>.
+        </p>
+        <p>
+          Site <a href="https://github.com/EpicMorg/metamod-r.org"><i class="fab fa-github"></i> developed</a> and hosted by <a href="https://ww.epicm.org/"><i class="far fa-hdd"></i> EpicMorg</a>, 2018
+        </p>
+        <p>0.0.0.1</p>
+      </div>
+    </div>
+  </footer>
+  <script async type="text/javascript" src="/assets/js/bulma.js"></script>
+  <!--script defer src="/assets/js/fa-v4-shims.js" crossorigin="anonymous"></script-->
+  <script defer src="/assets/js/fontawesome.all.js" crossorigin="anonymous"></script>
+</body>
+</html>
