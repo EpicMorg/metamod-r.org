@@ -18,9 +18,10 @@
       <nav class="navbar">
         <div class="container">
           <div class="navbar-brand">
-            <a class="navbar-item" href="/">
-              Metamod-r
-            </a>
+          	<a class="navbar-item" href="/">
+      			<img src="/assets/img/valve.svg" alt="Metamod-r" width="32" height="32">
+    		</a>
+         
             <span class="navbar-burger burger" data-target="navbarMenu">
               <span></span>
               <span></span>
@@ -30,16 +31,22 @@
           <div id="navbarMenu" class="navbar-menu">
             <div class="navbar-end">
               <a class="navbar-item is-active">
-                Home
+                <span class="icon">
+                	<i class="fas fa-home"></i>
+                </span> Home
               </a>
-              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/releases">
-                Releases
+              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/releases" target="_blank">
+                <span class="icon">
+                	<i class="fas fa-download"></i>
+                </span> Releases
               </a>
-              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/wiki">
-                Documentation
+              <a class="navbar-item" href="https://github.com/theAsmodai/metamod-r/wiki" target="_blank">
+                <span class="icon">
+                	<i class="fas fa-book"></i>
+                </span> Documentation
               </a>
               <span class="navbar-item">
-                <a class="button is-white is-outlined is-small" href="https://github.com/theAsmodai/metamod-r">
+                <a class="button is-white is-outlined is-small" href="https://github.com/theAsmodai/metamod-r" target="_blank">
                   <span class="icon">
                     <i class="fab fa-github"></i>
                   </span>
@@ -54,10 +61,14 @@
     <div class="hero-body">
       <div class="container has-text-centered">
         <h1 class="title">
-          The new standard in &lt;insert industry here&gt;
+          <img src="/assets/img/valve.svg" alt="Metamod-r" width="32" height="32"> <strong>Metamod-r</strong>
         </h1>
         <h2 class="subtitle">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          Metamod-r is based on the original version of Metamod written by Will Day for Half-Life 1 with some improvements from Jussi Kivilinna (Metamod-p). This product contains a large number of performance optimizations and more pure code. The core was written using JIT compiler.
+
+Metamod-r is incompatible with original HLDS. It's necessary to have installed ReHLDS (API 3.1+). There is no guarantee that the product will work in a different environment.
+
+Distributed under GitHub license.
         </h2>
       </div>
     </div>
@@ -219,14 +230,15 @@
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
+      	<p>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
         <p>
-          <strong>Bulma Templates</strong> by <a href="https://github.com/dansup">Daniel Supernault</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>.
+          <strong>Bulma Templates</strong> by <a href="https://github.com/dansup/bulma-templates">
+            <i class="fab fa-github"></i>
+            Daniel Supernault</a>. The source code 
+          <a href="http://opensource.org/licenses/mit-license.php"><img src="https://img.shields.io/github/license/EpicMorg/metamod-r.org.svg?longCache=true&style=flat-square"></a>.
         </p>
         <p>
-          <a class="icon" href="https://github.com/dansup/bulma-templates">
-            <i class="fab fa-github"></i>
-          </a>
+          Hosted by <a href="https://ww.epicm.org/"><i class="far fa-hdd"></i> EpicMorg</a>, 2018
         </p>
       </div>
     </div>
