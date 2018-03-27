@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+Host: https://metamod-r.org/
+
+Sitemap: https://metamod-r.org/sitemap.xml
