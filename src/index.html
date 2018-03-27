@@ -154,9 +154,9 @@
               <div class="card-body">
                 <h5 class="card-title"><strong><i class="fas fa-cloud-download-alt"></i> CI Download</strong></h5>
                 <p class="card-text">
-                  <!--a title="Build status" href="http://teamcity.rehlds.org/viewType.html?buildTypeId=Metamod_Publish&guest=1">
+                  <a title="Build status" href="http://teamcity.rehlds.org/viewType.html?buildTypeId=Metamod_Publish&guest=1">
                     <img alt="Build status" src="https://img.shields.io/teamcity/http/teamcity.rehlds.org/e/Metamod_Publish.svg?style=flat-square&label=TC%20Build">
-                  </a-->
+                  </aрезы>
                   <a title="Quick download" href="http://teamcity.rehlds.org/guestAuth/downloadArtifacts.html?buildTypeId=Metamod_Publish&buildId=lastSuccessful">
                     <img alt="Quick download" src="https://camo.githubusercontent.com/2b15ec2fc402e02b66fde9eab7e896406caeddac/687474703a2f2f7265686c64732e6f72672f76657273696f6e2f6d6574616d6f642d2d722e737667">
                   </a>
@@ -191,14 +191,45 @@
           <div class="modal-body">
             <ul class="nav nav-tabs" id="myTab" role="tablist">
               <li class="nav-item">
-                <a class="nav-link active" id="thirdparty-tab" data-toggle="tab" href="#thirdpartyTab" role="tab" aria-controls="home" aria-selected="true">Third party</a>
+                <a class="nav-link active" id="credits-tab" data-toggle="tab" href="#creditsTab" role="tab" aria-controls="home" aria-selected="true">
+                  <i class="fas fa-users"></i> Credits
+                </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" id="transtaltions-tab" data-toggle="tab" href="#transtaltionsTab" role="tab" aria-controls="profile" aria-selected="false">Translations</a>
+                <a class="nav-link" id="transtaltions-tab" data-toggle="tab" href="#transtaltionsTab" role="tab" aria-controls="profile" aria-selected="false">
+                  <i class="fas fa-language"></i> Translations
+                </a>
               </li> 
+              <li class="nav-item">
+                <a class="nav-link" id="thirdparty-tab" data-toggle="tab" href="#thirdpartyTab" role="tab" aria-controls="home" aria-selected="true">
+                  <i class="far fa-file-alt"></i> Third party
+                </a>
+              </li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-              <div class="tab-pane fade show active" id="thirdpartyTab" role="tabpanel" aria-labelledby="thirdparty-tab">
+            <div class="tab-content" id="myTabContent"> 
+              <div class="tab-pane fade show active" id="creditsTab" role="tabpanel" aria-labelledby="credits-tab">
+                <p>
+                  <i class="fas fa-at"></i> Will Day,  <code>willday@metamod.org</code> — original <a href="http://www.metamod.org/" target="_blank">Metamod</a>,
+                </p>
+                <p>
+                  <i class="fab fa-github-alt"></i> <a href="https://github.com/jkivilin" target="_blank">Jussi Kivilinna</a> — <a href="https://github.com/jkivilin/metamod-p" target="_blank">Metamod-p</a>,
+                </p>
+                <p>
+                  <i class="fab fa-github-alt"></i> <a href="https://github.com/alliedmodders" target="_blank">AlliedModders</a> —  <a href="https://github.com/alliedmodders/metamod-hl1" target="_blank">Metamod-am</a>,
+                </p>
+                <p>
+                  <i class="fab fa-github-alt"></i> <a href="https://github.com/theAsmodai/" target="_blank">theAsmodai</a>, (<a href="http://www.dedicated-server.ru/vbb/" target="_blank">ReHLDS Team</a>) — <a href="https://github.com/theAsmodai/metamod-r" target="_blank">Metamod-r</a>.
+                </p>
+              </div> 
+              <div class="tab-pane fade" id="transtaltionsTab" role="tabpanel" aria-labelledby="transtaltions-tab">
+                <p>
+                  English translaion — <i class="fab fa-github-alt"></i> <a href="https://github.com/AEnimka" target="_blank">AEnimka</a>. 
+                </p>
+                <p>
+                  Russian translaion — <i class="fab fa-github-alt"></i> <a href="https://github.com/stamepicmorg" target="_blank">STAM</a>, <a href="https://github.com/Aleks-Z" target="_blank">AurZum</a>.
+                </p>
+              </div> 
+              <div class="tab-pane fade" id="thirdpartyTab" role="tabpanel" aria-labelledby="thirdparty-tab">
                 <p>&bull; Icons made by 
                   <a href="http://www.freepik.com" title="Freepik">
                     Freepik
@@ -219,9 +250,6 @@
                   </a>.
                 </p>
               </div>
-              <div class="tab-pane fade" id="transtaltionsTab" role="tabpanel" aria-labelledby="transtaltions-tab">
-                ASAP
-              </div> 
             </div> 
           </div>
           <div class="modal-footer">

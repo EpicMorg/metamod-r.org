@@ -1,0 +1,20 @@
+﻿<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+	<url>
+		<loc>https://metamod-r.org/</loc>
+		<lastmod>2018-03-27 11:09:31</lastmod>
+		<priority>1.0</priority>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://metamod-r.org/robots.txt</loc>
+		<lastmod>2018-03-27 11:09:31</lastmod>
+		<priority>1</priority>
+		<changefreq>daily</changefreq>
+	</url>
+	<url>
+		<loc>https://metamod-r.org/sitemap.xml</loc>
+		<lastmod>2018-03-27 11:09:31</lastmod>
+		<priority>1</priority>
+		<changefreq>daily</changefreq>
+	</url>
+</urlset>
