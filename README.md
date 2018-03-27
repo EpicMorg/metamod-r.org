@@ -4,7 +4,7 @@ Site's repo for [Metamod-r](https://github.com/theAsmodai/metamod-r) project.
  
 ### Info
 
-[![Build Status](https://ci.epicm.org/buildStatus/icon?job=Sites/EpicMorg--metamod-r.org)](https://ci.epicm.org/job/Sites/job/EpicMorg--metamod-r.org/) [![license](https://img.shields.io/github/license/EpicMorg/metamod-r.org.svg?longCache=true&style=flat-square)](https://github.com/EpicMorg/metamod-r.org/blob/master/LICENSE) [![Gitter](https://img.shields.io/gitter/room/metamod-r-org/metamod-r-org.svg?style=flat-square)](https://gitter.im/metamod-r-org)
+[![Website](https://img.shields.io/website-up-down-green-red/https/metamod-r.org.svg?label=Website&longCache=true&style=flat-square)](https://metamod-r.org) [![Build Status](https://ci.epicm.org/buildStatus/icon?job=Sites/EpicMorg--metamod-r.org)](https://ci.epicm.org/job/Sites/job/EpicMorg--metamod-r.org/) [![license](https://img.shields.io/github/license/EpicMorg/metamod-r.org.svg?longCache=true&style=flat-square)](https://github.com/EpicMorg/metamod-r.org/blob/master/LICENSE) [![Gitter](https://img.shields.io/gitter/room/metamod-r-org/metamod-r-org.svg?style=flat-square)](https://gitter.im/metamod-r-org)
 
 ### Third party things:
 
