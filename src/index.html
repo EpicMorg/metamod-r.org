@@ -25,6 +25,9 @@
 
     <!-- Font Awesome 5 -->
     <link rel="stylesheet" href="/assets/css/fa-svg-with-js.css" crossorigin="anonymous" />
+
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/assets/css/animate.min.css" crossorigin="anonymous" />
   </head>
 
   <body>
@@ -80,7 +83,7 @@
       </header>
 
       <main role="main" class="inner cover">
-        <h1 class="cover-heading text-center">
+        <h1 class="cover-heading text-center animated"  id="metaheader">
           <img src="/assets/img/valve.svg" alt="Metamod-r" width="32" height="32"> <strong>Metamod-r</strong>...
         </h1>
         <p class="lead">...is based on the original version of
@@ -168,11 +171,12 @@
             </div>
           </div>
         </div>
+       <img src="/assets/img/sparx.svg" class="rounded animated aenimka-the-unicorn hidden" alt="The Magic Unicorn">
       </main>
 
       <footer class="mastfoot mt-auto text-center">
         <div class="inner">
-          <p>Site <a href="https://github.com/EpicMorg/metamod-r.org"><i class="fab fa-github"></i> developed</a> and hosted by <a href="https://ww.epicm.org/"><i class="far fa-hdd"></i> EpicMorg</a>, 2018, <a href="#" data-toggle="modal" data-target="#aboutModal">0.0.0.3</a>.</p>
+          <p>Site <a href="https://github.com/EpicMorg/metamod-r.org"><i class="fab fa-github"></i> developed</a> and hosted by <a href="https://ww.epicm.org/"><i class="far fa-hdd"></i> EpicMorg</a>, 2018, <a href="#" data-toggle="modal" data-target="#aboutModal">0.0.0.4</a>.</p>
         </div>
       </footer>
     </div>
@@ -183,7 +187,7 @@
       <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="aboutModalLabel">&#10084; About</h5>
+            <h5 class="modal-title" id="aboutModalLabel"><span id="whatisit">&#10084;</span> About</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -223,7 +227,7 @@
               </div> 
               <div class="tab-pane fade" id="transtaltionsTab" role="tabpanel" aria-labelledby="transtaltions-tab">
                 <p>
-                  English translaion — <i class="fab fa-github-alt"></i> <a href="https://github.com/AEnimka" target="_blank">AEnimka</a>. 
+                  English translaion — <i class="fab fa-github-alt"></i> <a id="clickme-trigger" href="javascript:void(0);">AEnimka</a>. 
                 </p>
                 <p>
                   Russian translaion — <i class="fab fa-github-alt"></i> <a href="https://github.com/stamepicmorg" target="_blank">STAM</a>, <a href="https://github.com/Aleks-Z" target="_blank">AurZum</a>.
@@ -259,10 +263,12 @@
       </div>
     </div>
  
+ 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/jquery.animateCSS.min.js"></script>
     <script src="/assets/js/bootstrap.bundle.min.js"></script>
     <script src="/assets/js/bootstrap.engine.dev.js"></script>
     <script defer src="/assets/js/fontawesome.all.js" crossorigin="anonymous"></script>

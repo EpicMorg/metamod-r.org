@@ -21,9 +21,20 @@
 a,
 a:focus,
 a.nounderline, 
-a:hover { 
-  text-decoration: none !important;
+a:hover {
+   text-decoration: none !important;
 }
 .bg-dark {
-    background-color: #333 !important;
+  background-color: #333 !important;
+}
+.hidden{
+  display: none !important;
+}
+.aenimka-the-unicorn {
+  width: 40%;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  z-index: 100000;
 }
