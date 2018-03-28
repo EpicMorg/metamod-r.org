@@ -45,8 +45,7 @@ $(document).ready(function(){
               $('#whatisit').removeClass("flip");
         });
     }); 
-    $( "#clickme-trigger" ).click(function() {
-
+    $( "#clickme-trigger" ).click(function() { 
         var arr = [
           "/assets/img/sparks/01.svg",
           "/assets/img/sparks/02.svg",
@@ -55,10 +54,11 @@ $(document).ready(function(){
           "/assets/img/sparks/05.svg",
           "/assets/img/sparks/06.svg"];
         var rand = Math.floor(Math.random() * arr.length);
-       $('#aenimka-the-unicorn').attr('src', arr[rand]);  
-       $('.aenimka-the-unicorn').removeClass("hidden");
-       $('.aenimka-the-unicorn').addClass('animated zoomIn');
-       $('.aenimka-the-unicorn').animateCSS('zoomIn', 2000, function() {
+        $('#aenimka-the-unicorn').attr('src', arr[rand]);  
+        $('.aenimka-the-unicorn').removeClass("hidden");
+        $('.aenimka-the-unicorn').addClass('animated zoomIn');
+        $('.aenimka-the-unicorn').animateCSS('zoomIn', 2000, function() {
+
           // Animation complete!
           $('.aenimka-the-unicorn').addClass('animated zoomOut');
           $('.aenimka-the-unicorn').animateCSS('zoomOut', 1000, function() {
@@ -70,7 +70,5 @@ $(document).ready(function(){
           });
        });
     });
-
-//////////////////
 });
  
