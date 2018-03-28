@@ -46,6 +46,16 @@ $(document).ready(function(){
         });
     }); 
     $( "#clickme-trigger" ).click(function() {
+
+        var arr = [
+          "/assets/img/sparks/01.svg",
+          "/assets/img/sparks/02.svg",
+          "/assets/img/sparks/03.svg",
+          "/assets/img/sparks/04.svg",
+          "/assets/img/sparks/05.svg",
+          "/assets/img/sparks/06.svg"];
+        var rand = Math.floor(Math.random() * arr.length);
+       $('#aenimka-the-unicorn').attr('src', arr[rand]);  
        $('.aenimka-the-unicorn').removeClass("hidden");
        $('.aenimka-the-unicorn').addClass('animated zoomIn');
        $('.aenimka-the-unicorn').animateCSS('zoomIn', 2000, function() {
@@ -57,7 +67,6 @@ $(document).ready(function(){
               $('.aenimka-the-unicorn').removeClass("animated");
               $('.aenimka-the-unicorn').removeClass("zoomOut");
               $('.aenimka-the-unicorn').removeClass("zoomIn");
-              window.open('https://github.com/AEnimka', '_blank').focus();
           });
        });
     });
