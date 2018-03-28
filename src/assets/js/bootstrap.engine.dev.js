@@ -58,6 +58,7 @@ $(document).ready(function(){
         $('.aenimka-the-unicorn').removeClass("hidden");
         $('.aenimka-the-unicorn').addClass('animated zoomIn');
         $('.aenimka-the-unicorn').animateCSS('zoomIn', 2000, function() {
+
           // Animation complete!
           $('.aenimka-the-unicorn').addClass('animated zoomOut');
           $('.aenimka-the-unicorn').animateCSS('zoomOut', 1000, function() {
@@ -69,7 +70,5 @@ $(document).ready(function(){
           });
        });
     });
-
-//////////////////
 });
  
